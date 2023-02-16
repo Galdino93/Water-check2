@@ -1,0 +1,117 @@
+*{/* Seletor universal */
+    margin: 0;/* Espaçamento externo */
+    padding: 0;/* Espaçamento interno */
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+
+body{
+    
+    background-color: #f6f6f6;
+
+}
+
+.container{
+    width: 400px;
+    background-color: #89A3FF;
+    border-radius: 10px;/* formato da borda */
+    padding: 15px 35px;/* 20 vai servir para cima e baixo / 50 vai valer para laterais */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(15%);
+    flex-direction: column;
+}
+
+
+.container h2{
+   margin:1rem 0 ;
+   text-align: center;
+   padding-bottom: 1rem ;
+   color: #f6f6f6;
+   font-size: 2rem;
+   padding-bottom: 1.2rem; /* botton é a parte inferior - 1 rem equivale a 16px */
+   color: #f6f6f6;
+   border-bottom: 1px solid #f6f6f6 ; 
+ 
+}
+
+.form1{
+    margin-bottom: 0.5rem;
+    
+}
+
+.form1 label, input {
+    display: block;
+    width: 100%;
+
+}
+
+.form1 label{
+    margin-bottom: 1px;
+    color: #f6f6f6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form1 label{
+    margin-bottom: 2px;
+    color: #f6f6f6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form1 input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.form1 a{
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #89A3FF;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.link1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.link1 a{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+
+.link1 a:hover{ /* mouse passar por cima e executa o que desejamos */
+    text-decoration: underline;
+   
+}
+
+
+
+.form1 a:hover{
+    background-color: rgb(72, 127, 245);
+    color: #f6f6f6;
+}
+

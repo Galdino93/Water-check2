@@ -1,0 +1,23 @@
+*{
+    background-color: goldenrod;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    
+}
+
+
+
+h2{
+    color: white;
+    text-align: center;
+
+}
+
+select{
+    size: 20px;
+}
