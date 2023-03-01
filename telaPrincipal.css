@@ -13,7 +13,7 @@
     
     /*retirar o estilo das listas*/
     
-    .menuhorizontal li{
+.menuhorizontal li{
     display: inline;
     float: left;
     padding:0px;
@@ -30,6 +30,7 @@
     text-decoration: none;
     padding: 10px;
     background-color: #CCCCCC;
+    color: #487ff5;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
